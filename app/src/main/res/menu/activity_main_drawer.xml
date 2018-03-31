@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_TopHeadLines"
+            android:icon="@drawable/ic_action_nv"
+            android:title="Political"
+          />
+        <item
+            android:id="@+id/nav_Business"
+            android:icon="@drawable/ic_action_nv"
+            android:title="Business" />
+        <item
+            android:id="@+id/nav_Entertainment"
+            android:icon="@drawable/ic_action_nv"
+            android:title="Entertainment" />
+        <item
+            android:id="@+id/nav_Health"
+            android:icon="@drawable/ic_action_nv"
+            android:title="Health" />
+        <item
+            android:id="@+id/nav_Science"
+            android:icon="@drawable/ic_action_nv"
+            android:title="Science" />
+        <item
+            android:id="@+id/nav_Sport"
+            android:icon="@drawable/ic_action_nv"
+            android:title="Sport" />
+        <item
+            android:id="@+id/nav_Technology"
+            android:icon="@drawable/ic_action_nv"
+            android:title="Technology" />
+
+    </group>
+    <item android:title="Global News">
+
+        <group android:checkableBehavior="single">
+        <menu>
+            <item
+                android:id="@+id/nav_general"
+                android:title="Global News"
+                android:icon="@drawable/ic_action_nv"/>
+        </menu>
+        </group>
+    </item>
+
+</menu>
